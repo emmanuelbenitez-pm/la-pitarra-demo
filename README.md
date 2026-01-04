@@ -46,55 +46,6 @@ La Pitarra is a traditional Mexican board game (similar to Nine Men's Morris) fe
 - **Evaluation:** Sophisticated heuristic function
 
 ### Architecture
-
-# La Pitarra 🎮
-
-Traditional Mexican board game with advanced AI opponent
-
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
-[![Platform](https://img.shields.io/badge/Platform-PWA-blue)]()
-[![React](https://img.shields.io/badge/React-18-blue)]()
-
-## 🎯 About The Project
-
-La Pitarra is a traditional Mexican board game (similar to Nine Men's Morris) featuring an advanced AI opponent built with the Minimax algorithm. This project demonstrates expertise in algorithm design, game theory, and modern web technologies.
-
-### ✨ Key Features
-
-- 🔴🟡 **Dynamic Color Selection** - Choose to play first (red) or second (yellow)
-- 🤖 **5 AI Difficulty Levels** - From beginner to expert (Minimax depth 3-18)
-- 📱 **Progressive Web App** - Installable on iOS/Android, works 100% offline
-- ⚡ **Optimized Performance** - Response time: 4-60 seconds on mobile devices
-- 🎨 **Responsive Design** - Works seamlessly on desktop and mobile
-
-## 📸 Screenshots
-
-### Main Menu
-![Main Menu](screenshots/menu.png)
-
-### Color Selection
-![Color Selection](screenshots/color-selector.png)
-
-### Gameplay - Placement Phase
-![Placement Phase](screenshots/placement.png)
-
-### Gameplay - Movement Phase
-![Movement Phase](screenshots/movement.png)
-
-### Victory Screen
-![Victory](screenshots/victory.png)
-
-## 🧠 Technical Highlights
-
-### Algorithm & AI
-
-- **Algorithm:** Minimax with Alpha-Beta pruning
-- **Optimization:** Transposition tables, move ordering
-- **Adaptive Depth:** 3-18 levels based on game phase
-- **Performance:** Prunes 85-95% of search tree
-- **Evaluation:** Sophisticated heuristic function
-
-### Architecture
 ```
 ┌─────────────────────────────────────┐
 │         Game Interface              │
